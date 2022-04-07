@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+* {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ol,
+ul {
+    list-style-type: none;
+}
+
+img {
+    vertical-align: middle;
+}
+
+#head {
+    text-align: center;
+    padding-top: 50px;
+    background-color: aliceblue;
+}
+
+#head h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    font-weight: 800;
+    margin-bottom: 5px;
+}
+
+#head p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+main #push {
+    padding-top: 70px;
+}
+
+#push input {
+    padding: 15px 15px;
+}
+
+#push button {
+    padding: 15px 25px;
+}
+
+main #result {
+    margin-top: 100px;
+    padding: 30px 0;
+    background-color: white;
+}
+
+#result h2 {
+    margin-bottom: 20px;
+}
+
+#result input {
+    padding: 12px 20px;
+    border-radius: 50px;
+    border: 1px solid black;
+}
+
+#result button {
+    padding: 12px 25px;
+    border: 1px solid black;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+#list {
+    margin-top: 75px;
+}
+
+#list li {
+    border: 1px solid black;
+    padding: 15px 60px 15px 20px;
+    width: 300px;
+    border-radius: 5px;
+    margin: 10px auto;
+    position: relative;
+    text-align: left;
+}
+
+#list li a {
+	position: absolute;
+	right: 15px;
+	top: 50%;
+	transition: all linear .2s;
+	font-size: 20px;
+	color: black;
+    transform: translateY(-50%);
+    
+}
+
+#list li a:hover{
+    font-size: 25px;
+    font-weight: 500;
+    color: red;
+}
